@@ -1,0 +1,13 @@
+tornado
+wtforms
+peewee
+pymysql
+aiomysql
+PyJWT
+aiofiles
+pillow
+peewee-async==0.6.0a0
+wtforms_tornado
+redis
+bcrypt
+wtforms_json
