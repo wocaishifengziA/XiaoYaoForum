@@ -5,10 +5,10 @@ from XiaoYaoForm.urls import urlpattern
 __author__ = 'xiaoyao'
 __date__ = '2019/5/20 22:21'
 
-
 from tornado import web
 import tornado
 import tornado.options
+
 
 class MainHandler(web.RequestHandler):
     def get(self, *args, **kwargs):
@@ -16,6 +16,7 @@ class MainHandler(web.RequestHandler):
 
     def post(self):
         self.write
+
 
 urls = [
     ("/", MainHandler),
