@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from XiaoYaoForm import settings
+from XiaoYaoForm.settings import settings
 from XiaoYaoForm.urls import urlpattern
 
 __author__ = 'xiaoyao'
@@ -26,4 +26,3 @@ if __name__ == "__main__":
     app = web.Application(urlpattern, debug=True, **settings)
     app.listen(8888)
     tornado.ioloop.IOLoop.current().start()
-    # print('ok')

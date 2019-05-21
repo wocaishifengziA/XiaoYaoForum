@@ -1,6 +1,6 @@
 from tornado.web import url
-
+from apps.users.handler import SmsHandler
 
 urlpattern = (
-    url("/login/", LoginHandler)
+    url("/login/", SmsHandler),
 )
