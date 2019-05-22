@@ -1,9 +1,11 @@
 import peewee_async
 
 settings = {
+    "secret_key": "ZGGA#Mp4yL4w5CDu",
     "redis": {
         "host": "127.0.0.1",
         "port": 6379,
+        "password": "deng"
     },
 }
 
