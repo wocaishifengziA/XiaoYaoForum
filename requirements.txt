@@ -4,9 +4,9 @@ peewee
 pymysql
 aiomysql
 PyJWT
-aiofiles   # 异步读写文件
+aiofiles
 pillow
-peewee-async==0.6.0a0
+peewee-async
 wtforms_tornado
 redis
 bcrypt
